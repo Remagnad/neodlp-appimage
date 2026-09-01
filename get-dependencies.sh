@@ -10,8 +10,6 @@ echo "---------------------------------------------------------------"
      ffmpeg              \
      aria2               \
      libayatana-appindicator \
-     libwebkit2gtk \
-     libgtk         \
      
 
 echo "Installing debloated packages..."
