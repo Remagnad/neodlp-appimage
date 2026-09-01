@@ -10,8 +10,6 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export APPNAME=neodlp
 export ICON=/usr/share/icons/hicolor/256x256@2/apps/neodlp.png
 export DESKTOP=/usr/share/applications/NeoDLP.desktop
-export DEPLOY_OPENGL=1
-export DEPLOY_GSTREAMER=1
 
 # Deploy dependencies
 quick-sharun \
