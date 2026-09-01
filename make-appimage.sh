@@ -13,12 +13,10 @@ export DESKTOP=/usr/share/applications/NeoDLP.desktop
 
 # Deploy dependencies
 quick-sharun \
-    /usr/bin/deno           \
     /usr/bin/neodlp         \
     /usr/bin/neodlp-msghost \
     /usr/bin/neodlp-pot     \
-    /usr/bin/yt-dlp         \
-
+    
 # Additional changes can be done in between here
 
 # Turn AppDir into AppImage
