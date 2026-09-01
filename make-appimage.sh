@@ -14,7 +14,7 @@ export DESKTOP=/usr/share/applications/NeoDLP.desktop
 # Deploy dependencies
 echo "=== TESTE SHARUN ==="
 
-quick-sharun /usr/bin/neodlp /usr/bin/neodlp-msghost /usr/bin/neodlp-spot /usr/bin/deno /usr/bin/yt-dlp
+quick-sharun /usr/bin/neodlp /usr/bin/neodlp-msghost /usr/bin/neodlp-pot /usr/bin/deno /usr/bin/yt-dlp
 
 echo "=== SHARUN TERMINOU ==="
     
