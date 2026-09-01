@@ -12,8 +12,11 @@ export ICON=/usr/share/icons/hicolor/256x256@2/apps/neodlp.png
 export DESKTOP=/usr/share/applications/NeoDLP.desktop
 
 # Deploy dependencies
-quick-sharun \
-    /usr/bin/neodlp*         \
+echo "=== TESTE SHARUN ==="
+
+quick-sharun /usr/bin/neodlp
+
+echo "=== SHARUN TERMINOU ==="
     
 # Additional changes can be done in between here
 
