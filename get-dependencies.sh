@@ -9,9 +9,9 @@ echo "---------------------------------------------------------------"
  pacman -Syu --noconfirm \
      ffmpeg              \
      aria2               \
-     libappindicator3-1  \
-     libwebkit2gtk-4.1-0 \
-     libgtk-3-0          \
+     libayatana-appindicator \
+     libwebkit2gtk \
+     libgtk         \
      
 
 echo "Installing debloated packages..."
