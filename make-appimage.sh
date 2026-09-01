@@ -8,11 +8,16 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=PATH_OR_URL_TO_ICON
-export DESKTOP=PATH_OR_URL_TO_DESKTOP_ENTRY
+export ICON=/usr/share/icons/hicolor/256x256@2/apps/neodlp.png
+export DESKTOP=/usr/share/applications/NeoDLP.desktop
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun \
+    /usr/bin/deno           \
+    /usr/bin/neodlp         \
+    /usr/bin/neodlp-msghost \
+    /usr/bin/neodlp-pot     \
+    /usr/bin/yt-dlp         \
 
 # Additional changes can be done in between here
 
