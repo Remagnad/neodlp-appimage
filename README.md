@@ -4,7 +4,7 @@
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/Remagnad/neodlp-appimage/total?logo=github&label=GitHub%20Downloads)](https://github.com/Remagnad/neodlp-appimage/releases/latest)
 [![CI Build Status](https://github.com/pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/TEMPLATE-AppImage)](https://github.com/Remagnad/neodlp-appimage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/Remagnad/neodlp-appimage)](https://github.com/Remagnad/neodlp-appimage/releases/latest)
 
 <p align="center">
   <img src="https://github.com/neosubhamoy/neodlp/blob/main/app-icon.png" width="150" />
