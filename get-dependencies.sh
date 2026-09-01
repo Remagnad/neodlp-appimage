@@ -18,9 +18,10 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
-make-aur-package \
- libsoup \
- neodlp \
+PRE_BUILD_CMDS='sed -i "/^check() {/,/^}/d" PKGBUILD' \
+make-aur-package libsoup
+
+make-aur-package neodlp
  
 
 # If the application needs to be manually built that has to be done down here
