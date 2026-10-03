@@ -22,6 +22,10 @@ PRE_BUILD_CMDS='sed -i "/^check() {/,/^}/d" PKGBUILD' \
 make-aur-package libsoup
 
 make-aur-package neodlp
+
+echo "Downloading latest yt-dlp release..."
+curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/bin/yt-dlp
+chmod +x /usr/bin/yt-dlp
  
 
 # If the application needs to be manually built that has to be done down here
